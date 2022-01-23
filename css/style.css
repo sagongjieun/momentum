@@ -1,0 +1,130 @@
+.hidden {
+  display: none;
+}
+
+.bgimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 1.5s linear;
+}
+
+#weather {
+  display: grid;
+  height: 5vh;
+  justify-content: right;
+  color: white;
+  user-select: none;
+  text-shadow: 0 2px 5px rgb(0 0 0);
+}
+
+#main {
+  display: grid;
+  height: 90vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-rows: 240px 42px 21px 33%;
+  gap: 30px;
+}
+
+#clock {
+  color: white;
+  justify-content: center;
+  font-size: 150px;
+  font-weight: bold;
+  user-select: none;
+  text-shadow: 0 2px 40px rgb(0 0 0);
+}
+
+#login-form {
+  display: grid;
+  height: 42px;
+  justify-content: center;
+  gap: 10px;
+}
+
+#login-form #loginInput {
+  color: white;
+  background-color: transparent;
+  font-size: 15px;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+  outline: none;
+}
+
+#login-form #loginButton {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #9d97a3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 1px 10px rgb(0 0 0);
+}
+
+#greeting {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  user-select: none;
+  text-shadow: 0 2px 20px rgb(0 0 0);
+}
+
+#todo-form {
+  display: grid;
+  justify-content: center;
+}
+
+#todo-form #todoInput {
+  color: white;
+  background-color: transparent;
+  width: 250px;
+  font-size: 15px;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+  outline: none;
+}
+
+#todo-list {
+  width: 30vh;
+  justify-self: center;
+  color: white;
+  user-select: none;
+  text-shadow: 0 2px 5px rgb(0 0 0);
+}
+
+.todoList {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.todoDeleteBtn {
+  margin-left: 0.5em;
+  font-weight: bold;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 1px 10px rgb(0 0 0);
+}
+
+#quote {
+  display: flex;
+  justify-content: center;
+  color: white;
+  user-select: none;
+  text-shadow: 0 2px 5px rgb(0 0 0);
+}
